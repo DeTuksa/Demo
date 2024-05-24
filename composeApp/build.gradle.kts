@@ -41,6 +41,10 @@ kotlin {
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
             implementation(libs.androidx.datastore.preferences)
+            implementation(libs.androidx.lifecycle.viewmodel.compose)
+            implementation(libs.compose.navigation)
+            api(libs.koin.core)
+            api(libs.koin.compose)
         }
     }
 }
@@ -82,6 +86,7 @@ android {
     }
 }
 dependencies {
+    implementation(project(":composeApp"))
     implementation(project(":composeApp"))
 }
 
