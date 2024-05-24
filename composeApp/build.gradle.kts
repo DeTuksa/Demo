@@ -40,6 +40,7 @@ kotlin {
             implementation(compose.ui)
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
+            implementation(libs.androidx.datastore.preferences)
         }
     }
 }
@@ -79,5 +80,8 @@ android {
     dependencies {
         debugImplementation(compose.uiTooling)
     }
+}
+dependencies {
+    implementation(project(":composeApp"))
 }
 
