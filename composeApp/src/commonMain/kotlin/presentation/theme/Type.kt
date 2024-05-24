@@ -11,12 +11,12 @@ import org.jetbrains.compose.resources.Font
 import demo.composeapp.generated.resources.Res
 import demo.composeapp.generated.resources.inter_black
 import demo.composeapp.generated.resources.inter_bold
-import demo.composeapp.generated.resources.inter_extrabold
-import demo.composeapp.generated.resources.inter_extralight
+import demo.composeapp.generated.resources.inter_extra_bold
+import demo.composeapp.generated.resources.inter_extra_light
 import demo.composeapp.generated.resources.inter_light
 import demo.composeapp.generated.resources.inter_medium
 import demo.composeapp.generated.resources.inter_regular
-import demo.composeapp.generated.resources.inter_semibold
+import demo.composeapp.generated.resources.inter_semi_bold
 import demo.composeapp.generated.resources.inter_thin
 import org.jetbrains.compose.resources.ExperimentalResourceApi
 
@@ -50,17 +50,17 @@ fun InterTypography(): Typography {
             style = FontStyle.Normal
         ),
         Font(
-            resource = Res.font.inter_extralight,
+            resource = Res.font.inter_extra_light,
             weight = FontWeight.ExtraLight,
             style = FontStyle.Normal
         ),
         Font(
-            resource = Res.font.inter_extrabold,
+            resource = Res.font.inter_extra_bold,
             weight = FontWeight.ExtraBold,
             style = FontStyle.Normal
         ),
         Font(
-            resource = Res.font.inter_semibold,
+            resource = Res.font.inter_semi_bold,
             weight = FontWeight.SemiBold,
             style = FontStyle.Normal
         ),
